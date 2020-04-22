@@ -1,6 +1,22 @@
 {
     "products": [],
-    "locations": [],
+    "locations": [
+        {
+            "address": "234 Road Street",
+            "squareFootage": 1200,
+            "handicapAccessible": true
+        },
+        {
+            "address": "4500 Lane Avenue",
+            "squareFootage": 1500,
+            "handicapAccessible": false
+        },
+        {
+            "address": "101 Drive Circle",
+            "squareFootage": 800,
+            "handicapAccessible": true
+        }
+    ],
     "employees": [],
     "productTypes": [],
     "customers": []
