@@ -1,92 +1,101 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "productTypeId": 1,
-            "name": "Everlasting Gobstopper",
-            "price": 1
-        },
-        {
-            "id": 2,
-            "productTypeId": 1,
-            "name": "Jawbreaker",
-            "price": 2
-        },
-        {
-            "id": 3,
-            "productTypeId": 2,
-            "name": "Big Bubb",
-            "price": 2
-        },
-        {
-            "id": 4,
-            "productTypeId": 2,
-            "name": "Bubble Tape",
-            "price": 3
-        },
-        {
-            "id": 5,
-            "productTypeId": 3,
-            "name": "Choccy",
-            "price": 5
-        },
-        {
-            "id": 6,
-            "productTypeId": 3,
-            "name": "Chocolate Frog",
-            "price": 2
-        },
-        {
-            "id": 7,
-            "productTypeId": 4,
-            "name": "Sprite Remix",
-            "price": 2
-        },
-        {
-            "id": 8,
-            "productTypeId": 4,
-            "name": "Fizzy Lifting Drink",
-            "price": 2
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "address": "234 Road Street",
-            "squareFootage": 1200,
-            "handicapAccessible": true
-        },
-        {
-            "id": 2,
-            "address": "4500 Lane Avenue",
-            "squareFootage": 1500,
-            "handicapAccessible": false
-        },
-        {
-            "id": 3,
-            "address": "101 Drive Circle",
-            "squareFootage": 800,
-            "handicapAccessible": true
-        }
-    ],
-    "employees": [],
-    "productTypes": [
-        {
-            "id": 1,
-            "type": "Hard Candy"
-        },
-        {
-            "id": 2,
-            "type": "Gum"
-        },
-        {
-            "id": 3,
-            "type": "Chocolate"
-        },
-        {
-            "id": 4,
-            "type": "Soda"
-        }
-    ],
-    "customers": []
+  "products": [
+    {
+      "id": 1,
+      "productTypeId": 1,
+      "name": "Everlasting Gobstopper",
+      "price": 1
+    },
+    {
+      "id": 2,
+      "productTypeId": 1,
+      "name": "Jawbreaker",
+      "price": 2
+    },
+    {
+      "id": 3,
+      "productTypeId": 2,
+      "name": "Big Bubb",
+      "price": 2
+    },
+    {
+      "id": 4,
+      "productTypeId": 2,
+      "name": "Bubble Tape",
+      "price": 3
+    },
+    {
+      "id": 5,
+      "productTypeId": 3,
+      "name": "Choccy",
+      "price": 5
+    },
+    {
+      "id": 6,
+      "productTypeId": 3,
+      "name": "Chocolate Frog",
+      "price": 2
+    },
+    {
+      "id": 7,
+      "productTypeId": 4,
+      "name": "Sprite Remix",
+      "price": 2
+    },
+    {
+      "id": 8,
+      "productTypeId": 4,
+      "name": "Fizzy Lifting Drink",
+      "price": 2
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "234 Road Street",
+      "squareFootage": 1200,
+      "handicapAccessible": true
+    },
+    {
+      "id": 2,
+      "address": "4500 Lane Avenue",
+      "squareFootage": 1500,
+      "handicapAccessible": false
+    },
+    {
+      "id": 3,
+      "address": "101 Drive Circle",
+      "squareFootage": 800,
+      "handicapAccessible": true
+    }
+  ],
+  "employees": [
+    {
+      "name": "Test",
+      "locationId": 2,
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 14,
+      "id": 1
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "Hard Candy"
+    },
+    {
+      "id": 2,
+      "type": "Gum"
+    },
+    {
+      "id": 3,
+      "type": "Chocolate"
+    },
+    {
+      "id": 4,
+      "type": "Soda"
+    }
+  ],
+  "customers": []
 }
